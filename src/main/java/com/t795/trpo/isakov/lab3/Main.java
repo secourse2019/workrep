@@ -1,3 +1,5 @@
+package com.company;
+
 public class Main {
 
     public static void for1 (int n, int k)
@@ -356,6 +358,42 @@ public class Main {
                 System.out.println(a);
             }
         }
+    }
+
+    public static int while1(int a, int b)
+    {
+        while (a >= b)
+        {
+            a -= b;
+        }
+        return a;
+    }
+
+    public static int while2(int a, int b)
+    {
+        int count = 0;
+        while (a >= b)
+        {
+            a -= b;
+            ++count;
+        }
+        return count;
+    }
+
+    public static int while3(int n, int k)
+    {
+        int count = 0;
+        while (n >= k)
+        {
+            n -= k;
+            ++count;
+        }
+        return count;
+    }
+
+    public static int while4(int n)
+    {
+
     }
 
     public static void main(String[] args) {
