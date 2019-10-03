@@ -30,8 +30,17 @@ public class Main {
 	System.out.println("Timofey loh");
 
 
+    
+    System.out.println("Hello")
+	System.out.println("Timofey lox");
+    System.out.println("git bl9");
+
+
+
+
 
     System.out.println("MacOS is the best OS");
+
     System.out.Println("VV");
     System.out.println("Hello");
 	System.out.println("Timofey lox");
