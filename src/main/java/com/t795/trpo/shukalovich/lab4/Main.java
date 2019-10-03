@@ -4,7 +4,20 @@ public class Main {
     Sysyem.in.read();
     System.out.println("Hello")
 	System.out.println("Timofey lox");
+    
+    System.out.println("Hello")
+	System.out.println("Timofey lox");
+	System.out.println("Lox");
+	System.out.println("Valik old faggot")
 
+    
+    System.out.println("Hello")
+	System.out.println("Timofey lox");
+	System.out.println("Timofey loh")
+
+
+
+    System.out.println("MacOS is the best OS");
     System.out.Println("VV");
     System.out.println("Hello");
     asfasafsafsfsf
@@ -33,5 +46,6 @@ public class Main {
             ............................................................%-.....+*......-@.......
             ...........................................................+*......+*........@-.....
             ..........................................................:%.......**.........%-....
+	Console.WriteLine("Java govno");
             ...................................................................*+..........+....
 }
