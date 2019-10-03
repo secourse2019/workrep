@@ -4,7 +4,17 @@ public class Main {
     
     System.out.println("Hello")
 	System.out.println("Timofey lox");
+<<<<<<< HEAD
 	System.out.println("Lox");
+=======
+	System.out.println("Valik old faggot")
+
+    
+    System.out.println("Hello")
+	System.out.println("Timofey lox");
+	System.out.println("Timofey loh")
+
+>>>>>>> 5bf866d9705626335fda0328a97d13705080e0d8
 
     System.out.Println("VV");
     System.out.println("Hello");
@@ -34,5 +44,6 @@ public class Main {
             ............................................................%-.....+*......-@.......
             ...........................................................+*......+*........@-.....
             ..........................................................:%.......**.........%-....
+	Console.WriteLine("Java govno");
             ...................................................................*+..........+....
 }
