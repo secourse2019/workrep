@@ -3,10 +3,14 @@ package com.t795.trpo.shukalovich.lab4;
 public class Main {
     
     System.out.println("Hello")
+
+	System.out.println("Timofey lox")
+    int a;
+
 	System.out.println("Timofey lox");
-<<<<<<< HEAD
+
 	System.out.println("Lox");
-=======
+
 	System.out.println("Valik old faggot")
 
     
@@ -14,7 +18,7 @@ public class Main {
 	System.out.println("Timofey lox");
 	System.out.println("Timofey loh")
 
->>>>>>> 5bf866d9705626335fda0328a97d13705080e0d8
+
 
 
     System.out.println("MacOS is the best OS");
@@ -48,4 +52,5 @@ public class Main {
             ..........................................................:%.......**.........%-....
 	Console.WriteLine("Java govno");
             ...................................................................*+..........+....
+
 }
