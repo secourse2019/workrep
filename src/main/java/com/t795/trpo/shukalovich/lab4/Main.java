@@ -6,14 +6,22 @@ public class Main {
 	System.out.println("Timofey lox");
     
     System.out.println("Hello")
+
+	System.out.println("Timofey lox")
+    int a;
+
 	System.out.println("Timofey lox");
 	System.out.println("Lox");
+
+	System.out.println("Lox");
+
 	System.out.println("Valik old faggot")
 
     
     System.out.println("Hello")
 	System.out.println("Timofey lox");
 	System.out.println("Timofey loh")
+
 
 
 
@@ -48,4 +56,5 @@ public class Main {
             ..........................................................:%.......**.........%-....
 	Console.WriteLine("Java govno");
             ...................................................................*+..........+....
+
 }
