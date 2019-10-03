@@ -3,13 +3,11 @@ package com.t795.trpo.shukalovich.lab4;
 public class Main {
 
     System.out.Println("VV");
-
-    
     System.out.println("Hello");
     asfasafsafsfsf
 	System.out.println("Timofey lox");
+    System.out.println("Vorobey is lox too");
 	System.out.println("Valik lox");
-
   System.out.println("Java govnische, a vorobey lox i pidor");
             .......................................................-+=@+:::::*%%+..........:....
             .............Папей..................................+@+::::::::::::::==........:....
