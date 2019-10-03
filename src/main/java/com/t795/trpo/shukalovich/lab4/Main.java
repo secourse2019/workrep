@@ -1,6 +1,16 @@
 package com.t795.trpo.shukalovich.lab4;
 
 public class Main {
+    
+    System.out.println("Hello")
+	System.out.println("Timofey lox");
+	System.out.println("Valik old faggot")
+
+    
+    System.out.println("Hello")
+	System.out.println("Timofey lox");
+	System.out.println("Timofey loh")
+
 
     
     System.out.println("Hello")
@@ -36,5 +46,6 @@ public class Main {
             ............................................................%-.....+*......-@.......
             ...........................................................+*......+*........@-.....
             ..........................................................:%.......**.........%-....
+	Console.WriteLine("Java govno");
             ...................................................................*+..........+....
 }
