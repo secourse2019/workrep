@@ -5,7 +5,8 @@ public class Main {
     System.out.Println("VV");
 
     
-    System.out.println("Hello")
+    System.out.println("Hello");
+    asfasafsafsfsf
 	System.out.println("Timofey lox");
 	System.out.println("Valik lox");
 
