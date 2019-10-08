@@ -9,4 +9,3 @@ linter:
     ignore:
       - warning
       - info
-    properties: checkstyle.properties
