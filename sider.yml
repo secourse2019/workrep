@@ -1,0 +1,12 @@
+linter:
+  checkstyle:
+    config: google
+    dir: src
+    exclude:
+      - vendor
+      - pattern: foo
+      - string: foo
+    ignore:
+      - warning
+      - info
+    properties: checkstyle.properties
