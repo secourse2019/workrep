@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c12335b-57b2-4dbc-aefe-237e11840956" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Laba1/src/com/company/KeyApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1/src/com/company/MagicSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1/src/com/company/MagicSquareReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1/src/com/company/TableApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1/src/com/company/TableApproachReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BlockMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Decryptable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Encryptable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MagicSquareCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MagicSquareDecryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MagicSquareEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TableDecryptionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TableEncryptionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/Cesar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/EncrypterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/MagicSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/PerKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba1final/src/com/company/Trisimus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba2/Laba2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba2/src/com/company/KeyCrypterCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba2/src/com/company/decrypter/DecrypterKeyCrypter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba2/src/com/company/encrypter/EncrypterKeyCrypter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCollation/src/com/company/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Structure/src/com/company/Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Structure/src/com/company/FabricMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Structure/src/com/company/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Structure/src/com/company/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Person/Blogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Person/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Person/Passanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Person/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Person/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/GroundTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/Payments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/Subway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/Tram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/Trolley.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransportSystem/src/com/company/transport/UndergroundTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstLaba1/src/com/company/TableApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstLaba1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/KeyAppproachReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/KeyApproach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/MagicSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/MagicSquareReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/tableApproach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/out/production/firstLaba1/com/company/tableApproachReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/KeyAppproachReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/KeyApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstLaba1/src/com/company/KeyApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstLaba1/src/com/company/MagicSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/MagicSquareReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstLaba1/src/com/company/MagicSquareReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/tableApproach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstLaba1/src/com/company/tableApproachReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstLaba1/src/com/company/tableApproachReverse.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/CrypterCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DecryptKeyCrypterMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/company/EncryptKeyCrypterMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MagicSquareEncrypter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SimpoleTransponitionDecrypter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SimpleTransponitionCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SimpleTransponitionEncrypter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/PerKeyEncrypter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/PerKeyDecrypter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/PerKeyCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MagicSquareDecrypter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MagicSquare.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Encryptable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Decryptable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BlockMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TableDecryptionMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TableEncryptionMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MagicSquareCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MagicSquareEncryption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MagicSquareDecryption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Laba1Refactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laba1Refactor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laba1Refactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laba1Refactor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laba1Refactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laba1Refactor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laba1" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Laba1Refactor" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c12335b-57b2-4dbc-aefe-237e11840956" name="Default Changelist" comment="" />
+      <created>1569421382754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569421382754</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="781" height="870" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1997226" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32573727" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.33197832" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/CrypterCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/EncryptKeyCrypterMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/DecryptKeyCrypterMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/MagicSquareEncrypter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/SimpoleTransponitionDecrypter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/PerKeyEncrypter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/PerKeyCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTransponitionEncrypter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/PerKeyDecrypter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/MagicSquareDecrypter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleTransponitionCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Matrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/TableEncryptionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TableDecryptionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Decryptable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Encryptable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BlockMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MagicSquareEncryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MagicSquareCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MagicSquareDecryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
