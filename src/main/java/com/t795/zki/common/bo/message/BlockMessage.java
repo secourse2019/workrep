@@ -27,6 +27,16 @@ public class BlockMessage extends AbstractMessage {
         return rows;
     }
 
+    private void copyLastArrayToResizedArray() {
+        char[][] newContent = new char[this.rows][this.cols];
+
+        for (int rowIndex = 0; rowIndex < this.content.length; ++rowIndex) {
+            for (int columnIndex = 0; columnIndex < this.content[0].length; ++columnIndex) {
+                newContent[rowIndex][columnIndex] = this.content[rowIndex][columnIndex]
+            }
+        }
+    }
+
     public void setRowsCount(int rows) {
         this.rows = rows;
     }
@@ -54,10 +64,6 @@ public class BlockMessage extends AbstractMessage {
     }
 
     public char[] getRowByIndex(int rowIndex) {
-        char[] result = new char[this.cols];
-
-        for(int i = 1; i < this.cols; ++i) {
-            result[i] = this.content[rowIndex][i];
-        }
+        return this.content[rowIndex];
     }
 }
