@@ -5,12 +5,12 @@ public class BlockMessage extends AbstractMessage {
     private int rows;
     private int cols;
 
-    public BlockMessage() { }
+    public BlockMessage() {
+        this(new char[0][0]);
+    }
 
-    public BlockMessage(char[][] content, int rows, int cols) {
-        this.content = content;
-        this.rows = rows;
-        this.cols = cols;
+    public BlockMessage(char[][] content) {
+        this.setContent(content);
     }
 
     public char[][] getContent() {
@@ -19,13 +19,15 @@ public class BlockMessage extends AbstractMessage {
 
     public void setContent(char[][] content) {
         this.content = content;
+        this.rows = content.length;
+        this.cols = content[0].length;
     }
 
     public int getRows() {
         return rows;
     }
 
-    public void setRows(int rows) {
+    public void setRowsCount(int rows) {
         this.rows = rows;
     }
 
@@ -33,7 +35,29 @@ public class BlockMessage extends AbstractMessage {
         return cols;
     }
 
-    public void setCols(int cols) {
+    public void setColumnsCount(int cols) {
         this.cols = cols;
+    }
+
+    public char getContentEntryByIndex(int row, int column) {
+        return this.content[row][column];
+    }
+
+    public char[] getColumnByIndex(int columnIndex) {
+        char[] result = new char[this.rows];
+
+        for(int i = 0; i < this.rows; ++i) {
+            result[i] = this.content[i][columnIndex];
+        }
+
+        return result;
+    }
+
+    public char[] getRowByIndex(int rowIndex) {
+        char[] result = new char[this.cols];
+
+        for(int i = 1; i < this.cols; ++i) {
+            result[i] = this.content[rowIndex][i];
+        }
     }
 }
