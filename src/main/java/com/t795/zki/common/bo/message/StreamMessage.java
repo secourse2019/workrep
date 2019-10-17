@@ -4,7 +4,7 @@ public class StreamMessage extends AbstractMessage {
     private String message;
 
     public  StreamMessage(String message) {
-        setMessage(message);
+        this.message = message;
     }
 
     public String getMessage() {
