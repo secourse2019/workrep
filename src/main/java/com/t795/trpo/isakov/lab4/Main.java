@@ -2,28 +2,23 @@ package com.company;
 
 public class Main {
 
-    public static int while1(int a, int b)
-    {
-        while (a >= b)
-        {
+    public static int while1(int a, int b) {
+        while (a >= b) {
             a -= b;
         }
         return a;
     }
 
-    public static int while2(int a, int b)
-    {
+    public static int while2(int a, int b) {
         int count = 0;
-        while (a >= b)
-        {
+        while (a >= b) {
             a -= b;
             ++count;
         }
         return count;
     }
 
-    public static int while3(int n, int k)
-    {
+    public static int while3(int n, int k) {
         int count = 0;
         while (n >= k) {
             n -= k;
@@ -32,18 +27,15 @@ public class Main {
         return count;
     }
 
-    public static boolean while4(double n)
-    {
-        while (n > 0)
-        {
+    public static boolean while4(double n) {
+        while (n > 0) {
             double v = Math.log(n) / Math.log(3);
             return (int) v == v;
         }
         return false;
     }
 
-    static double while6(int n)
-    {
+    static double while6(int n) {
         double mul = 1;
         while (n >= 2) {
             mul *= n;
@@ -52,8 +44,7 @@ public class Main {
         return mul;
     }
 
-    static int while7(int n)
-    {
+    static int while7(int n) {
         int k = 1;
         while (k * k <= n) {
             ++k;
@@ -61,8 +52,7 @@ public class Main {
         return k;
     }
 
-    static int while8(int n)
-    {
+    static int while8(int n) {
         int k = 1;
         while (k * k <= n) {
             ++k;
@@ -71,8 +61,7 @@ public class Main {
     }
 
 
-    static int while9(int n)
-    {
+    static int while9(int n) {
         int k = 1;
         int number = 3;
         while (number <= n) {
@@ -82,36 +71,30 @@ public class Main {
         return k;
     }
 
-    static int while10(int n)
-    {
+    static int while10(int n) {
         int k = 0;
         int number = 3;
-        while (number < n)
-        {
+        while (number < n) {
             number *= 3;
             ++k;
         }
         return k;
     }
 
-    static int while11(int n)
-    {
+    static int while11(int n) {
         int k = 0;
         int sum = 0;
-        while (sum < n)
-        {
+        while (sum < n) {
             ++k;
             sum += 3;
         }
         return k;
     }
 
-    static void while12(int n)
-    {
+    static void while12(int n) {
         int k = 0;
         int sum = 0;
-        while (!(sum + k + 1 > n))
-        {
+        while (!(sum + k + 1 > n)) {
             ++k;
             sum += k;
         }
@@ -119,12 +102,10 @@ public class Main {
         System.out.println(sum);
     }
 
-    static void while13(int a)
-    {
+    static void while13(int a) {
         int k = 0;
         double temp = 0;
-        while (temp <= a)
-        {
+        while (temp <= a) {
             ++k;
             temp += 1 / (double)k;
         }
@@ -132,12 +113,10 @@ public class Main {
         System.out.println(temp);
     }
 
-    static void while14(int a)
-    {
+    static void while14(int a) {
         int k = 0;
         double temp = 0;
-        while (temp <= a)
-        {
+        while (temp <= a) {
             ++k;
             temp += 1 / (double)k;
         }
@@ -145,12 +124,10 @@ public class Main {
         System.out.println(temp - 1 / (double)k);
     }
 
-    static void while15(int p)
-    {
+    static void while15(int p) {
         int k = 1;
         double s = 1000;
-        while (s <= 1100)
-        {
+        while (s <= 1100) {
             ++k;
             s += s * p / 100;
         }
@@ -158,12 +135,10 @@ public class Main {
         System.out.println(s);
     }
 
-    static void while16(int p)
-    {
+    static void while16(int p) {
         int k = 1;
         double d = 10,s = 10;
-        while (s <= 200)
-        {
+        while (s <= 200) {
             ++k;
             d += d * p / 100;
             s += d;
@@ -172,21 +147,17 @@ public class Main {
         System.out.println(s);
     }
 
-    static void while17(int n)
-    {
-        while (n > 0)
-        {
+    static void while17(int n) {
+        while (n > 0) {
             System.out.println(n % 10);
             n /=10;
         }
     }
 
-    static void while18(int n)
-    {
+    static void while18(int n) {
         int sum = 0;
         int num = 0;
-        while (n > 0)
-        {
+        while (n > 0) {
             ++num;
             sum += n % 10;
             n /= 10;
@@ -195,62 +166,50 @@ public class Main {
         System.out.println(sum);
     }
 
-    static int while19(int n)
-    {
+    static int while19(int n) {
         int res = 0;
-        while (n > 0)
-        {
+        while (n > 0) {
             res = res * 10 + n % 10;
             n /= 10;
         }
         return res;
     }
 
-    static boolean while20(int n)
-    {
-        while((n > 0) & ((n % 10) != 2))
-        {
+    static boolean while20(int n) {
+        while((n > 0) & ((n % 10) != 2)) {
             n /= 10;
         }
         return (n > 0) & ((n % 10) == 2);
     }
 
-    static boolean while21(int n)
-    {
-        while((n > 0) & ((n % 10) % 2 == 0))
-        {
+    static boolean while21(int n) {
+        while((n > 0) & ((n % 10) % 2 == 0)) {
             n /=10;
         }
         return (n % 10) % 2 != 0;
     }
 
-    static boolean while22(int n)
-    {
+    static boolean while22(int n) {
         int k = 2;
-        while((k < n - 1) & ((n % k) != 0) )
-        {
+        while((k < n - 1) & ((n % k) != 0) ) {
             ++k;
         }
         return (n % k) != 0;
     }
 
-    static int while23(int a, int b)
-    {
-        while ((a != 0) & (b != 0))
-        {
+    static int while23(int a, int b) {
+        while ((a != 0) & (b != 0)) {
             if (a > b) a = a % b;
             else b = b % a;
         }
         return a + b;
     }
 
-    static boolean while24(int n)
-    {
+    static boolean while24(int n) {
         int f1 = 1;
         int f2 = 1;
         int f = 0;
-        while (f < n)
-        {
+        while (f < n) {
             f = f2 + f1;
             f2 = f1;
             f1 = f;
@@ -258,13 +217,11 @@ public class Main {
         return f == n;
     }
 
-    static int while25(int n)
-    {
+    static int while25(int n) {
         int f = 0;
         int f1 = 1;
         int f2 = 1;
-        while (f < n + 1)
-        {
+        while (f < n + 1) {
             f = f2 + f1;
             f2 = f1;
             f1 = f;
@@ -272,13 +229,11 @@ public class Main {
         return f;
     }
 
-    static void while26(int n)
-    {
+    static void while26(int n) {
         int f = 0;
         int f1 = 1;
         int f2 = 1;
-        while (f < n)
-        {
+        while (f < n) {
             f = f2 + f1;
             f2 = f1;
             f1 = f;
@@ -287,14 +242,12 @@ public class Main {
         System.out.println(f1 + f2);
     }
 
-    static int while27(int n)
-    {
+    static int while27(int n) {
         int f1 = 1;
         int f2 = 1;
         int f = 0;
         int k = 2;
-        while (f < n)
-        {
+        while (f < n) {
             ++k;
             f = f2 + f1;
             f2 = f1;
@@ -303,13 +256,11 @@ public class Main {
         return k;
     }
 
-    static void while28(int e)
-    {
+    static void while28(int e) {
         double ak1 = 0;
         double ak = 2;
         int k = 1;
-        while (Math.abs(ak - ak1) >= e)
-        {
+        while (Math.abs(ak - ak1) >= e) {
             ++k;
             ak1 = ak;
             ak = 2 + 1 / ak1;
@@ -319,14 +270,12 @@ public class Main {
         System.out.println(ak);
     }
 
-    static void while29(int e)
-    {
+    static void while29(int e) {
         double ak1 = 1;
         double ak = 2;
         double ak2;
         int k = 2;
-        while (Math.abs(ak - ak1) >= e)
-        {
+        while (Math.abs(ak - ak1) >= e) {
             ak2 = ak1;
             ak1 = ak;
             ak = (ak2 + 2 * ak1) / 3;
@@ -337,16 +286,13 @@ public class Main {
         System.out.println(ak);
     }
 
-    static int while30(int a, int b, int c)
-    {
+    static int while30(int a, int b, int c) {
         int k = 0;
         double temp;
-        while ((a - c) >= 0)
-        {
+        while ((a - c) >= 0) {
             a -= c;
             temp = b;
-            while (temp - c >= 0)
-            {
+            while (temp - c >= 0) {
                 temp -= c;
                 ++k;
             }
