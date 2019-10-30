@@ -1,4 +1,4 @@
-package department;
+package com.t795.trpo.Liz.lab3.task.src.department;
 
 import java.util.List;
 

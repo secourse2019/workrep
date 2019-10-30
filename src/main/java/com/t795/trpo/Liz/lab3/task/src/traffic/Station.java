@@ -1,4 +1,4 @@
-package traffic;
+package com.t795.trpo.Liz.lab3.task.src.traffic;
 
 public class Station {
     private Integer name;

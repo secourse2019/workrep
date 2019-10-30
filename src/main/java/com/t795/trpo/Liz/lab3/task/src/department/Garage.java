@@ -1,8 +1,8 @@
-package department;
+package com.t795.trpo.Liz.lab3.task.src.department;
 
-import geolocation.Geolocation;
-import people.Employee;
-import transport.GroundTransport;
+import com.t795.trpo.Liz.lab3.task.src.geolocation.Geolocation;
+import com.t795.trpo.Liz.lab3.task.src.people.Employee;
+import com.t795.trpo.Liz.lab3.task.src.transport.GroundTransport;
 import java.util.List;
 
 public class Garage implements Department{
@@ -15,12 +15,10 @@ public class Garage implements Department{
         this.groundTransports = groundTransports;
     }
 
-    @Override
     public void hireEmployee(Employee employee) {
         employees.add(employee);
     }
 
-    @Override
     public void sackEmployee(int index) {
         employees.remove(index);
     }

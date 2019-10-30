@@ -1,4 +1,4 @@
-package com.company;
+package com.t795.trpo.Liz.lab3.task.src.com.company;
 
 public class Main {
 

@@ -1,6 +1,6 @@
-package traffic;
+package com.t795.trpo.Liz.lab3.task.src.traffic;
 
-import transport.Transport;
+import com.t795.trpo.Liz.lab3.task.src.transport.Transport;
 import java.util.List;
 
 public class Routes {
