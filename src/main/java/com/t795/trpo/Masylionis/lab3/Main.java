@@ -1,4 +1,4 @@
-package com.company;
+package com.t795.trpo.Masylionis.lab3;
 
 public class Main {
     public static void for_1(int n, int k) {
