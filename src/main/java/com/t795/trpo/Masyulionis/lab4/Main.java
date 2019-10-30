@@ -1,4 +1,4 @@
-package com.company;
+package com.t795.trpo.Masyulionis.lab4;
 
 public class Main {
 
