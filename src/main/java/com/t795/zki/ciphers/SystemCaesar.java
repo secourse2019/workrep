@@ -27,13 +27,15 @@ public class SystemCaesar {
         private int rolling(int value, int index) {
             int number = ((int)instance[index] + value);
 
-            if (number > 65519)
+            int lastCharacter = (int)'\uFFEF';
+
+            if (number > lastCharacter)
             {
-                number -= 65519;
+                number -= lastCharacter;
             }
 
             if (number < 0) {
-                number += 65519;
+                number += lastCharacter;
             }
             return number;
         }
