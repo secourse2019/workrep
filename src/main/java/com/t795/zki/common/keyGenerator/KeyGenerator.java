@@ -1,7 +1,7 @@
 package com.t795.zki.common.keyGenerator;
 
 public class KeyGenerator {
-    KeyGenerator(){};
+    public KeyGenerator(){};
 
     public String generateMagicSquareKey(int size)
     {

@@ -1,8 +1,8 @@
 package com.t795.zki.common.cryptors.magicSquare;
 
 public class MagicSquareCryptor {
-    String key;
-    MagicSquareCryptor(String magicSquare)
+    private String key;
+    public MagicSquareCryptor(String magicSquare)
     {
         key = magicSquare;
     }
