@@ -32,7 +32,7 @@ public class BlockMessage extends AbstractMessage {
 
         for (int rowIndex = 0; rowIndex < this.content.length; ++rowIndex) {
             for (int columnIndex = 0; columnIndex < this.content[0].length; ++columnIndex) {
-                newContent[rowIndex][columnIndex] = this.content[rowIndex][columnIndex]
+                newContent[rowIndex][columnIndex] = this.content[rowIndex][columnIndex];
             }
         }
     }
