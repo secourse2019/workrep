@@ -1,4 +1,4 @@
-package com.company;
+package com.t795.trpo.Kraiko.lab4;
 
 public class Main {
 
