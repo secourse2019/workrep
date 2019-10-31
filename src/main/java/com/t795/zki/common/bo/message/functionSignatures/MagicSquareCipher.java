@@ -1,4 +1,4 @@
-package com.t795.trpo.functionSignatures;
+package com.t795.zki.common.bo.message.functionSignatures;
 
 
 public class MagicSquareCipher implements KeyCryptorMethod {
@@ -9,14 +9,14 @@ public class MagicSquareCipher implements KeyCryptorMethod {
         return new int[0];
     }
 
-    public String encryptor(String message) {
+    public StreamMassage  encryptor(String message) {
 
-        return null;
+        return new StreamMessage();
     }
 
-    public String decryptor(String message) {
+    public StreamMassage  decryptor(String message) {
 
-        return null;
+        return new StreamMessage();
     }
 
     public void setMessage(String a) {

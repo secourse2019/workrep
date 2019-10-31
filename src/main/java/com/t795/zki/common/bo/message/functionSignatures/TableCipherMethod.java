@@ -1,14 +1,14 @@
-package com.t795.trpo.functionSignatures;
+package com.t795.zki.common.bo.message.functionSignatures;
 
 public class TableCipherMethod implements KeyCryptorMethod {
 
-    TableCipherMethod(){};
+    TableCipherMethod(String message, int value){};
 
-    public String encryptor() {
+    public StreamMessage  encryptor() {
 
     }
 
-    public String decryptor() {
+    public StreamMessage  decryptor() {
 
     }
 
@@ -29,11 +29,11 @@ public class TableCipherMethod implements KeyCryptorMethod {
 
     }
 
-    public String getMessage() {
+    public StreamMessage  getMessage() {
         return  null;
     }
 
-    public String getKey() {
+    public StreamMessage  getKey() {
         return null;
     }
 }
