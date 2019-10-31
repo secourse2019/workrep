@@ -1,5 +1,6 @@
-package com.t795.zki.common.bo.message.functionSignatures;
+package com.t795.zki.common.cipher
 
+import com.t795.zki.common.bo.message.StreamMessage;
 
 public class MagicSquareCipher implements KeyCryptorMethod {
 
@@ -9,12 +10,12 @@ public class MagicSquareCipher implements KeyCryptorMethod {
         return new int[0];
     }
 
-    public StreamMassage  encryptor(String message) {
+    public StreamMessage  encryptor(String message) {
 
         return new StreamMessage();
     }
 
-    public StreamMassage  decryptor(String message) {
+    public StreamMessage  decryptor(String message) {
 
         return new StreamMessage();
     }
@@ -27,11 +28,11 @@ public class MagicSquareCipher implements KeyCryptorMethod {
 
     }
 
-    public String getMessage() {
+    public StreamMessage getMessage() {
         return null;
     }
 
-    public String getKey() {
+    public StreamMessage getKey() {
         return null;
     }
 }

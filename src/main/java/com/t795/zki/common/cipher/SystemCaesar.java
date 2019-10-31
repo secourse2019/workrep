@@ -1,4 +1,6 @@
-package com.t795.zki.common.bo.message.functionSignatures;
+package com.t795.zki.common.cipher;
+
+import com.t795.zki.common.bo.message.StreamMessage;
 
 public class SystemCaesar {
 

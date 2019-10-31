@@ -1,4 +1,4 @@
-package com.t795.zki.common.bo.message.functionSignatures;
+package com.t795.zki.common.cipher;
 
 public class KeyGenerator {
     public String generateKey(int size) {

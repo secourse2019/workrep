@@ -1,4 +1,6 @@
-package com.t795.zki.common.bo.message.functionSignatures;
+package com.t795.zki.common.cipher;
+
+import com.t795.zki.common.bo.message.StreamMessage;
 
 public class TableCipherMethod implements KeyCryptorMethod {
 
@@ -29,11 +31,11 @@ public class TableCipherMethod implements KeyCryptorMethod {
 
     }
 
-    public StreamMessage  getMessage() {
-        return  null;
+    public StreamMessage getMessage() {
+        return  new StreamMessage();
     }
 
-    public StreamMessage  getKey() {
-        return null;
+    public StreamMessage getKey() {
+        return new StreamMessage();
     }
 }

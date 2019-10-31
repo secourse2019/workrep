@@ -1,4 +1,4 @@
-package com.t795.zki.common.bo.message.functionSignatures;
+package com.t795.zki.common.cipher;
 
 public class Utils {
     public static void swapColumns(char[] first, char[] second) {
