@@ -23,6 +23,16 @@ public class BlockMessage extends AbstractMessage {
         this.cols = content[0].length;
     }
 
+    public void setColumnByIndex(int index, char[] column) {
+        for(int i = 0; i != this.rows; ++i) {
+            this.content[i][index] = column[i];
+        }
+    }
+
+    public void setRowByIndex(int index, char[] row) {
+        this.content[index] = row;
+    }
+
     public int getRows() {
         return rows;
     }
