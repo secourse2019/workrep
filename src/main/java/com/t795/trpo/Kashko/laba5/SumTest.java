@@ -43,4 +43,23 @@ public class SumTest {
         Assert.assertEquals(current, 10.3f);
     }
 
+    @Test
+    public void TestDoubleInt() {
+        double current = Calculator.Sum(8.5d, 2).doubleValue();
+        Assert.assertEquals(current, 10.5d);
+    }
+
+    @Test
+    public void TestFloatInt() {
+        float current = Calculator.Sum(15.02f, 5).floatValue();
+        Assert.assertEquals(current, 20.02f);
+    }
+
+    @Test
+    public void TestFloatDouble() {
+        float current = Calculator.Sum(3.33f, 3.33d).floatValue();
+        Assert.assertEquals(current, 6.66f);
+    }
+
+
 }
