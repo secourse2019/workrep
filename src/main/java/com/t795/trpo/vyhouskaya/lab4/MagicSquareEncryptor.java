@@ -1,7 +1,7 @@
-package encryptor;
+package com.t795.trpo.vyhouskaya.lab4;
 
-public class MagicSquareEncryptor implements EncrypKeyCryptorMethod {
-    @Override
+public class MagicSquareEncryptor {
+
     public void setMessage(String a) {
 
     }
