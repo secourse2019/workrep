@@ -11,12 +11,12 @@ public class SystemCaesar implements ICipher{
 
     }
 
-    public AbstractMessage  encrypt(AbstractMessage message) {
+    public StreamMessage  encrypt(StreamMessage message) {
 
         return new StreamMessage(message);
     }
 
-    public AbstractMessage  decrypt(AbstractMessage message) {
+    public StreamMessage  decrypt(StreamMessage message) {
 
         return new StreamMessage(message);
     }

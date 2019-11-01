@@ -8,11 +8,11 @@ public class TableCipherMethod implements ICipher {
 
     TableCipherMethod(String message, int value){};
 
-    public AbstractMessage encrypt(AbstractMessage message) {
+    public BlockMessage encrypt(BlockMessage message) {
         return null;
     }
 
-    public AbstractMessage  decrypt(AbstractMessage message) {
+    public BlockMessage  decrypt(BlockMessage message) {
         return null;
     }
 
@@ -33,7 +33,7 @@ public class TableCipherMethod implements ICipher {
 
     }
 
-    public StreamMessage getKey() {
+    public BlockMessage getKey() {
         return null;
     }
 

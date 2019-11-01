@@ -11,14 +11,14 @@ public class MagicSquareCipher implements ICipher {
         return new int[0];
     }
 
-    public AbstractMessage  encrypt(AbstractMessage message) {
+    public BlockMessage  encrypt(BlockMessage message) {
 
-        return new StreamMessage(message);
+        return new BlockMessage(message);
     }
 
-    public AbstractMessage  decrypt(AbstractMessage message) {
+    public BlockMessage  decrypt(BlockMessage message) {
 
-        return new StreamMessage(message);
+        return new BlockMessage(message);
     }
 
     public void setMessage(String a) {
@@ -37,7 +37,7 @@ public class MagicSquareCipher implements ICipher {
 
     }
 
-    public StreamMessage getMessage() {
+    public BlockMessage getMessage() {
         return null;
     }
 
