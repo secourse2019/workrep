@@ -1,8 +1,20 @@
 package com.t795.zki.common.cipher;
 
-public class SystemTrisimusCipher {
+import com.t795.zki.common.bo.message.BlockMessage;
+
+public class SystemTrisimusCipher implements ICipher{
 
     SystemTrisimusCipher(String message, String key){};
+
+    public StreamMessage  encrypt(StreamMessage message) {
+
+        return new StreamMessage(message);
+    }
+
+    public StreamMessage  decrypt(StreamMessage message) {
+
+        return new StreamMessage(message);
+    }
 
     private void includeLetters(String key) {
 
@@ -32,7 +44,7 @@ public class SystemTrisimusCipher {
 
     }
 
-    public String get() {
-        return new String();
+    public BlockMessage getMessage() {
+        return new BlockMessage();
     }
 }

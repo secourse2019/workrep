@@ -6,7 +6,12 @@ public class KeyGenerator {
         return null;
     }
 
-    public int getLength(int length) {
+    public static String generateRandomKeyValue(String message) {
+
+        return message;
+    }
+
+    public static int generateRandomKeyLength(int length) {
 
         return length;
     }

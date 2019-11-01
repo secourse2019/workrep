@@ -1,11 +1,14 @@
 package com.t795.zki.common.cipher;
 
+import com.t795.zki.common.bo.message.BlockMessage;
+
 public class Utils {
-    public static void swapColumns(char[] first, char[] second) {
+
+    public BlockMessage transposeMatrix(BlockMessage message) {
 
     }
 
-    public static void Transpanition(String cont) {
+    public void SwapColumnsByIndex(BlockMessage message, int firstIndex, int secondIndex) {
 
     }
 

@@ -1,8 +1,9 @@
 package com.t795.zki.common.cipher;
 
+import com.t795.zki.common.bo.message.AbstractMessage;
 import com.t795.zki.common.bo.message.StreamMessage;
 
-public class MagicSquareCipher implements KeyCryptorMethod {
+public class MagicSquareCipher implements ICipher {
 
     MagicSquareCipher(){};
 
@@ -10,14 +11,18 @@ public class MagicSquareCipher implements KeyCryptorMethod {
         return new int[0];
     }
 
+
+    public BlockMessage  encrypt(BlockMessage message) {
+
     public StreamMessage encryptor(String message) {
 
-        return new StreamMessage();
+
+        return new BlockMessage(message);
     }
 
-    public StreamMessage  decryptor(String message) {
+    public BlockMessage  decrypt(BlockMessage message) {
 
-        return new StreamMessage();
+        return new BlockMessage(message);
     }
 
     public void setMessage(String a) {
@@ -28,7 +33,15 @@ public class MagicSquareCipher implements KeyCryptorMethod {
 
     }
 
-    public StreamMessage getMessage() {
+    void setMessage(String a) {
+
+    }
+
+    void setKey(String a) {
+
+    }
+
+    public BlockMessage getMessage() {
         return null;
     }
 

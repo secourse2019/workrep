@@ -1,20 +1,22 @@
 package com.t795.zki.common.cipher;
 
+import com.t795.zki.common.bo.message.AbstractMessage;
+import com.t795.zki.common.bo.message.BlockMessage;
 import com.t795.zki.common.bo.message.StreamMessage;
 
-public class TableCipherMethod implements KeyCryptorMethod {
+public class TableCipherMethod implements ICipher {
 
     TableCipherMethod(String message, int value){};
 
-    public StreamMessage  encryptor() {
-
+    public BlockMessage encrypt(BlockMessage message) {
+        return null;
     }
 
-    public StreamMessage  decryptor() {
-
+    public BlockMessage  decrypt(BlockMessage message) {
+        return null;
     }
 
-    private void ChangeInstanse(int value) {
+    private void changeInstanse(String message) {
 
     }
 
@@ -23,19 +25,19 @@ public class TableCipherMethod implements KeyCryptorMethod {
         return value;
     }
 
-    public void setMessage(String a) {
+    void setMessage(String a) {
 
     }
 
-    public void setKey(String a) {
+    void setKey(String a) {
 
     }
 
-    public StreamMessage getMessage() {
-        return  new StreamMessage();
+    public BlockMessage getKey() {
+        return null;
     }
 
-    public StreamMessage getKey() {
-        return new StreamMessage();
+    public BlockMessage getMessage() {
+        return null;
     }
 }
