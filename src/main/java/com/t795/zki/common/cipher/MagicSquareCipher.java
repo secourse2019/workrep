@@ -10,12 +10,12 @@ public class MagicSquareCipher implements ICipher {
         return new int[0];
     }
 
-    public StreamMessage  encryptor(String message) {
+    public StreamMessage encrypt(String message) {
 
         return new StreamMessage(message);
     }
 
-    public StreamMessage  decryptor(String message) {
+    public StreamMessage  decrypt(String message) {
 
         return new StreamMessage(message);
     }

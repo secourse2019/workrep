@@ -5,7 +5,8 @@ import org.testng.annotations.Test;
 
 public class CipherTest {
 
-    public void CipherTest() {
+    @test
+    public void SystemCaesarTest1() {
         int k = 20;
         String message = "РАБОТА";
         String expectedMessage = "УЩВОАТМ";
@@ -14,7 +15,8 @@ public class CipherTest {
         Assert.assertEquals(actualResult.getMessage(), expectedMessage);
     }
 
-    public void CipherTest() {
+    @test
+    public void SystemCaesarTest2() {
         int k = 21;
         String message = "СОЛНЦЕ";
         String expectedMessage = "ВРЫТЧЛ";
@@ -23,7 +25,8 @@ public class CipherTest {
         Assert.assertEquals(actualResult.getMessage(), expectedMessage);
     }
 
-    public void CipherTest() {
+    @test
+    public void SystemCaesarTest3() {
         int k = 22;
         String message = "ПЕРЕМЕНЫ";
         String expectedMessage = "СТМЛАШВ";
