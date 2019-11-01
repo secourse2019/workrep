@@ -18,7 +18,6 @@ public class Caesar implements SystemCaesar {
         private void Shift(int value) {
 
             for(int i = 0; i != instance.length; ++i) {
-
                 instance[i] = rolling(value, i);
             }
         }
@@ -26,6 +25,7 @@ public class Caesar implements SystemCaesar {
         private char rolling(int value, int index) {
 
             int number = ((int)instance[index] + value);
+
             int lastCharacter = (int)'\uFFEF';
 
             if (number > lastCharacter) {
