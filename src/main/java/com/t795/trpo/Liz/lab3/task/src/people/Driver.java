@@ -1,5 +1,6 @@
-package people;
-import transport.GroundTransport;
+package com.t795.trpo.Liz.lab3.task.src.people;
+
+import com.t795.trpo.Liz.lab3.task.src.transport.GroundTransport;
 
 public class Driver extends Person {
 

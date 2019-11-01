@@ -1,7 +1,7 @@
-package department;
+package com.t795.trpo.Liz.lab3.task.src.department;
 
-import geolocation.Geolocation;
-import people.Employee;
+import com.t795.trpo.Liz.lab3.task.src.geolocation.Geolocation;
+import com.t795.trpo.Liz.lab3.task.src.people.Employee;
 import java.util.List;
 
 public class Office implements Department {
@@ -12,12 +12,10 @@ public class Office implements Department {
         this.geolocation = geolocation;
     }
 
-    @Override
     public void hireEmployee(Employee employee) {
         employees.add(employee);
     }
 
-    @Override
     public void sackEmployee(int index) {
         employees.remove(index);
     }

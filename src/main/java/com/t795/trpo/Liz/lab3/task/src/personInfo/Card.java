@@ -1,4 +1,4 @@
-package personInfo;
+package com.t795.trpo.Liz.lab3.task.src.personInfo;
 
 import java.util.Date;
 

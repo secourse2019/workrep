@@ -1,7 +1,7 @@
-package transport;
+package com.t795.trpo.Liz.lab3.task.src.transport;
 
-import people.Driver;
-import people.Passengers;
+import com.t795.trpo.Liz.lab3.task.src.people.Driver;
+import com.t795.trpo.Liz.lab3.task.src.people.Passengers;
 import java.util.List;
 
 public abstract class Transport {

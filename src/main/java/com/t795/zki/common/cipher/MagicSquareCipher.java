@@ -11,7 +11,11 @@ public class MagicSquareCipher implements ICipher {
         return new int[0];
     }
 
+
     public BlockMessage  encrypt(BlockMessage message) {
+
+    public StreamMessage encryptor(String message) {
+
 
         return new BlockMessage(message);
     }

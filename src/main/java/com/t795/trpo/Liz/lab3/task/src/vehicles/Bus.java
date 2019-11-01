@@ -1,7 +1,7 @@
-package vehicles;
+package com.t795.trpo.Liz.lab3.task.src.vehicles;
 
-import traffic.Routes;
-import transport.FuelTransport;
+import com.t795.trpo.Liz.lab3.task.src.traffic.Routes;
+import com.t795.trpo.Liz.lab3.task.src.transport.FuelTransport;
 
 
 public class Bus extends FuelTransport {
