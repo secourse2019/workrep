@@ -10,12 +10,10 @@ public class Caesar implements SystemCaesar {
         private char[] instance;
 
         Caesar(String message, int value) {
-            super();
             this.message = message;
             this.delta = value;
             this.instance = message.toCharArray();
         }
-
 
         private void Shift(int value) {
 
@@ -28,17 +26,15 @@ public class Caesar implements SystemCaesar {
         private char rolling(int value, int index) {
 
             int number = ((int)instance[index] + value);
-
             int lastCharacter = (int)'\uFFEF';
 
-            if (number > lastCharacter)
-            {
+            if (number > lastCharacter) {
                 number -= lastCharacter;
             }
-
             if (number < 0) {
                 number += lastCharacter;
             }
+
             return (char)number;
         }
 
