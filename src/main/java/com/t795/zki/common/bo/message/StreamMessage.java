@@ -7,11 +7,12 @@ public class StreamMessage extends AbstractMessage {
         this.message = message;
     }
 
-    public String getMessage() {
+    public String getMessage(String message) {
         return message;
     }
 
     public void setMessage(String msg) {
         this.message = msg;
     }
+
 }
