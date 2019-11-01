@@ -2,7 +2,7 @@ package com.t795.zki.common.cipher;
 
 import com.t795.zki.common.bo.message.BlockMessage;
 
-public class SystemTrisimusCipher {
+public class SystemTrisimusCipher implements ICipher{
 
     SystemTrisimusCipher(String message, String key){};
 
