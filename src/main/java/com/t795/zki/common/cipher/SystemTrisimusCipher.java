@@ -34,7 +34,7 @@ public class SystemTrisimusCipher {
 
     }
 
-    public BlockMessage get() {
+    public BlockMessage getMessage() {
         return new BlockMessage();
     }
 }
