@@ -1,8 +1,8 @@
-package vehicles;
+package com.t795.trpo.Liz.lab3.task.src.vehicles;
 
-import traffic.Routes;
-import transport.ElectricEngineTypes;
-import transport.ElectricTransport;
+import com.t795.trpo.Liz.lab3.task.src.traffic.Routes;
+import com.t795.trpo.Liz.lab3.task.src.transport.ElectricEngineTypes;
+import com.t795.trpo.Liz.lab3.task.src.transport.ElectricTransport;
 
 public class Trolley extends ElectricTransport{
     public Trolley(ElectricEngineTypes engineType, String number, Routes routes) {

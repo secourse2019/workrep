@@ -8,7 +8,7 @@ public interface SystemCaesar {
 
     private void ChangeInstanse(int value);
 
-    private int rolling(int value, int index);
+    private char rolling(int value, int index);
 
     public StreamMessage Shift(int value);
 
