@@ -2,9 +2,19 @@ package com.t795.zki.common.cipher;
 
 import com.t795.zki.common.bo.message.StreamMessage;
 
-public class SystemCaesar {
+public class SystemCaesar implements ICipher{
 
     SystemCaesar(String message, int value) {};
+
+    public StreamMessage  encryptor(String message) {
+
+        return new StreamMessage(message);
+    }
+
+    public StreamMessage  decryptor(String message) {
+
+        return new StreamMessage(message);
+    }
 
     private void ChangeInstanse(int value) {
 
@@ -12,13 +22,5 @@ public class SystemCaesar {
 
     private int rolling(int value, int index) {
         return value;
-    }
-
-    public StreamMessage getCipher() {
-        return new StreamMessage();
-    }
-
-    public StreamMessage getDeCipher() {
-        return new StreamMessage();
     }
 }

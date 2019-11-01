@@ -2,7 +2,7 @@ package com.t795.zki.common.cipher;
 
 import com.t795.zki.common.bo.message.StreamMessage;
 
-public class MagicSquareCipher implements KeyCryptorMethod {
+public class MagicSquareCipher implements ICipher {
 
     MagicSquareCipher(){};
 
@@ -12,12 +12,12 @@ public class MagicSquareCipher implements KeyCryptorMethod {
 
     public StreamMessage  encryptor(String message) {
 
-        return new StreamMessage();
+        return new StreamMessage(message);
     }
 
     public StreamMessage  decryptor(String message) {
 
-        return new StreamMessage();
+        return new StreamMessage(message);
     }
 
     public void setMessage(String a) {

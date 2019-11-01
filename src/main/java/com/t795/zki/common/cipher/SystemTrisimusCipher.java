@@ -1,5 +1,7 @@
 package com.t795.zki.common.cipher;
 
+import com.t795.zki.common.bo.message.BlockMessage;
+
 public class SystemTrisimusCipher {
 
     SystemTrisimusCipher(String message, String key){};
@@ -32,7 +34,7 @@ public class SystemTrisimusCipher {
 
     }
 
-    public String get() {
-        return new String();
+    public BlockMessage get() {
+        return new BlockMessage();
     }
 }

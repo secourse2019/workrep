@@ -1,17 +1,18 @@
 package com.t795.zki.common.cipher;
 
+import com.t795.zki.common.bo.message.BlockMessage;
 import com.t795.zki.common.bo.message.StreamMessage;
 
-public class TableCipherMethod implements KeyCryptorMethod {
+public class TableCipherMethod implements ICipher {
 
     TableCipherMethod(String message, int value){};
 
     public StreamMessage  encryptor() {
-
+        return null;
     }
 
     public StreamMessage  decryptor() {
-
+        return null;
     }
 
     private void ChangeInstanse(int value) {
@@ -31,11 +32,11 @@ public class TableCipherMethod implements KeyCryptorMethod {
 
     }
 
-    public StreamMessage getMessage() {
-        return  new StreamMessage();
+    public StreamMessage getKey() {
+        return null;
     }
 
-    public StreamMessage getKey() {
-        return new StreamMessage();
+    public BlockMessage getMessage() {
+        return null;
     }
 }
