@@ -9,21 +9,22 @@ public class Caesar implements SystemCaesar {
         private char[] instance;
 
         Caesar(String message, int value) {
+
             this.message = message;
             this.value = value;
             instance = message.toCharArray();
         }
 
         private void ChangeInstanse(int value) {
+
             for(int i = 0; i != instance.length; ++i) {
 
                 instance[i] = rolling(value, i);
-
             }
         }
 
-
         private char rolling(int value, int index) {
+
             int number = ((int)instance[index] + value);
 
             int lastCharacter = (int)'\uFFEF';
@@ -39,12 +40,12 @@ public class Caesar implements SystemCaesar {
             return (char)number;
         }
 
-
         public StreamMessage Shift (int value) {
-        ChangeInstanse(value);
-        StreamMessage result = new StreamMessage( new String(instance) );
-        return result;
-    }
+
+            ChangeInstanse(value);
+            StreamMessage result = new StreamMessage( new String(instance) );
+            return result;
+        }
 
     }
 
