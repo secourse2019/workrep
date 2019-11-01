@@ -6,16 +6,18 @@ import com.t795.zki.common.cipher.SystemCaesar;
 public class Caesar implements SystemCaesar {
 
         private String message;
+        private int delta;
         private char[] instance;
 
         Caesar(String message, int value) {
-
+            super();
             this.message = message;
-            this.value = value;
-            instance = message.toCharArray();
+            this.delta = value;
+            this.instance = message.toCharArray();
         }
 
-        private void ChangeInstanse(int value) {
+
+        private void Shift(int value) {
 
             for(int i = 0; i != instance.length; ++i) {
 
@@ -40,13 +42,15 @@ public class Caesar implements SystemCaesar {
             return (char)number;
         }
 
-        public StreamMessage Shift (int value) {
-
-            ChangeInstanse(value);
-            StreamMessage result = new StreamMessage( new String(instance) );
-            return result;
-        }
-
+    public StreamMessage encrypt() {
+        this.Shift(this.delta);
+        return new StreamMessage( new java.lang.String(instance) );
     }
+
+    public StreamMessage decrypt() {
+        this.Shift( -(this.delta));
+        return new StreamMessage(new java.lang.String(instance)  );
+    }
+}
 
 
