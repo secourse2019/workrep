@@ -1,13 +1,13 @@
 package com.t795.trpo.vorobyov.lab4;
 
-import org.testing.Assert;
-import org.testing.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class CalculatorTest {
     @Test
     public void testIntSum() {
         int result = Calculator.Sum(6, 5).intValue();
-        Assert.assertEquals(12, result)
+        Assert.assertEquals(12, result);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDoubleSum(){
+    public void testDouble1Sum(){
         double result = Calculator.Sum(12, 5d).doubleValue();
         Assert.assertEquals(12d, result);
     }
@@ -31,12 +31,12 @@ public class CalculatorTest {
     @Test
     public void testIntFloatSum(){
         float r = Calculator.Sum(12, 5f).floatValue();
-        Assert.assertEquals(12f, result);
+        Assert.assertEquals(12f, r);
     }
 
     @Test
     public void testFloatDoubleSum(){
         double r = Calculator.Sum(10f, 5d).doubleValue();
-        Assert.assertEquals(15d, result);
+        Assert.assertEquals(15d, r);
     }
 }

@@ -1,4 +1,4 @@
-package com.t795.trpo.Kashko.laba5;
+package com.t795.trpo.Kashko.lab5;
 
 import com.t795.trpo.Kashko.laba5.Calculator;
 import org.testng.Assert;
