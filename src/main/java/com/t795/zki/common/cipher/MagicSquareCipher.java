@@ -12,12 +12,12 @@ public class MagicSquareCipher implements KeyCryptorMethod {
 
     public StreamMessage encryptor(String message) {
 
-        return new StreamMessage(message);
+        return new StreamMessage();
     }
 
     public StreamMessage  decryptor(String message) {
 
-        return new StreamMessage(message);
+        return new StreamMessage();
     }
 
     public void setMessage(String a) {
