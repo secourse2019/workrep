@@ -34,10 +34,6 @@ public class SystemTrisimusCipher {
 
     }
 
-    public void set(String a) {
-
-    }
-
     public BlockMessage get() {
         return new BlockMessage();
     }

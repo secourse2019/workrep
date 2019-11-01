@@ -1,5 +1,6 @@
 package com.t795.zki.common.cipher;
 
+import com.t795.zki.common.bo.message.AbstractMessage;
 import com.t795.zki.common.bo.message.BlockMessage;
 import com.t795.zki.common.bo.message.StreamMessage;
 
@@ -7,11 +8,11 @@ public class TableCipherMethod implements ICipher {
 
     TableCipherMethod(String message, int value){};
 
-    public StreamMessage  encryptor() {
+    public AbstractMessage encrypt(String message) {
         return null;
     }
 
-    public StreamMessage  decryptor() {
+    public StreamMessage  decrypt(String message) {
         return null;
     }
 
