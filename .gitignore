@@ -7,6 +7,24 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/misc.xml
+.idea/modules.xml
+.idea/workrep.iml
+.idea/
+sandbox.iml
+.DS_Store
+.idea/.name 
+.idea/codeStyles/codeStyleConfig.xml
+.idea/compiler.xml
+.idea/vcs.xml
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/com/.DS_Store
+src/main/java/com/t795/.DS_Store
+src/main/java/com/t795/zki/.DS_Store
+src/main/java/com/t795/zki/common/.DS_Store
+
 
 # Generated files
 .idea/**/contentModel.xml

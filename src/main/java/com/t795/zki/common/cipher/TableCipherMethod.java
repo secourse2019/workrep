@@ -7,11 +7,11 @@ public class TableCipherMethod implements KeyCryptorMethod {
     TableCipherMethod(String message, int value){};
 
     public StreamMessage  encryptor() {
-
+        return  new StreamMessage(new String());
     }
 
     public StreamMessage  decryptor() {
-
+        return  new StreamMessage(new String());
     }
 
     private void ChangeInstanse(int value) {
@@ -23,6 +23,14 @@ public class TableCipherMethod implements KeyCryptorMethod {
         return value;
     }
 
+    public StreamMessage encryptor(String message) {
+        return null;
+    }
+
+    public StreamMessage decryptor(String message) {
+        return null;
+    }
+
     public void setMessage(String a) {
 
     }
@@ -32,10 +40,10 @@ public class TableCipherMethod implements KeyCryptorMethod {
     }
 
     public StreamMessage getMessage() {
-        return  new StreamMessage();
+        return  new StreamMessage(new String());
     }
 
     public StreamMessage getKey() {
-        return new StreamMessage();
+        return new StreamMessage(new String());
     }
 }
