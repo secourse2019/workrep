@@ -6,6 +6,16 @@ public class SystemTrisimusCipher {
 
     SystemTrisimusCipher(String message, String key){};
 
+    public StreamMessage  encrypt(StreamMessage message) {
+
+        return new StreamMessage(message);
+    }
+
+    public StreamMessage  decrypt(StreamMessage message) {
+
+        return new StreamMessage(message);
+    }
+
     private void includeLetters(String key) {
 
     }
