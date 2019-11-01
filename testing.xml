@@ -3,9 +3,9 @@
 <suite name="tests" parallel="tests" thread-count="2">
 
     <test name="lab5">
-        <packages>
-            <package name="tests.com.t795.trpo.grom.laba5.*" />
-        </packages>
+        <classes>
+            <class name="tests.com.t795.trpo.grom.lab6.TestCaesar"/>
+        </classes>
     </test>
 
 </suite>
