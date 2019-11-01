@@ -8,6 +8,4 @@ interface KeyCryptorMethod {
     StreamMessage  decryptor(String message);
     void setMessage(String a);
     void setKey(String a);
-    StreamMessage getMessage();
-    StreamMessage getKey();
 }

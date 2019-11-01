@@ -1,13 +1,14 @@
+
 package com.t795.trpo.vorobyov.lab4;
 
-import org.testing.Assert;
-import org.testing.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class CalculatorTest {
     @Test
     public void testIntSum() {
         int result = Calculator.Sum(6, 5).intValue();
-        Assert.assertEquals(12, result)
+        Assert.assertEquals(12, result);
     }
 
     @Test
