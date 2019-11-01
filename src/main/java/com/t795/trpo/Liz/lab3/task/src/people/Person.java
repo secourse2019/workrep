@@ -1,4 +1,4 @@
-package people;
+package com.t795.trpo.Liz.lab3.task.src.people;
 
 public class Person {
     private String name;

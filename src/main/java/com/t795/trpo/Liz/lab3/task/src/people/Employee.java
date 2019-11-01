@@ -1,7 +1,7 @@
-package people;
+package com.t795.trpo.Liz.lab3.task.src.people;
 
-import personInfo.Card;
-import personInfo.Position;
+import com.t795.trpo.Liz.lab3.task.src.personInfo.Card;
+import com.t795.trpo.Liz.lab3.task.src.personInfo.Position;
 
 public class Employee extends Person {
     private Position position;

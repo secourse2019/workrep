@@ -10,7 +10,7 @@ public class MagicSquareCipher implements KeyCryptorMethod {
         return new int[0];
     }
 
-    public StreamMessage  encryptor(String message) {
+    public StreamMessage encryptor(String message) {
 
         return new StreamMessage();
     }

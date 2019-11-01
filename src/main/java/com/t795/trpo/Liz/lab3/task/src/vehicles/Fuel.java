@@ -1,4 +1,4 @@
-package vehicles;
+package com.t795.trpo.Liz.lab3.task.src.vehicles;
 
 public class Fuel {
     private int litres;
