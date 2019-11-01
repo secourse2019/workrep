@@ -7,6 +7,11 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/misc.xml
+.idea/modules.xml
+.idea/workrep.iml
+sandbox.iml
+.DS_Store
 
 # Generated files
 .idea/**/contentModel.xml

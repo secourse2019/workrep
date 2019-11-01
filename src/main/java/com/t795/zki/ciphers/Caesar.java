@@ -1,19 +1,18 @@
 package com.t795.zki.ciphers;
 
 import com.t795.zki.common.bo.message.StreamMessage;
+import com.t795.zki.common.cipher.SystemCaesar;
 
-public class SystemCaesar {
+public class Caesar implements SystemCaesar {
 
         private String message;
-        private int value;
         private char[] instance;
 
-        SystemCaesar(String message, int value) {
+        Caesar(String message, int value) {
             this.message = message;
             this.value = value;
             instance = message.toCharArray();
         }
-
 
         private void ChangeInstanse(int value) {
             for(int i = 0; i != instance.length; ++i) {
@@ -41,14 +40,8 @@ public class SystemCaesar {
         }
 
 
-        public StreamMessage getCipher() {
-            ChangeInstanse(this.value);
-            StreamMessage result = new StreamMessage( new String(instance) );
-            return result;
-        }
-
-        public StreamMessage getDeCipher() {
-        ChangeInstanse( -(this.value));
+        public StreamMessage Shift (int value) {
+        ChangeInstanse(value);
         StreamMessage result = new StreamMessage( new String(instance) );
         return result;
     }
