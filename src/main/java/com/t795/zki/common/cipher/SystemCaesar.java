@@ -7,7 +7,7 @@ public class SystemCaesar implements ICipher{
 
     SystemCaesar(int value) {};
 
-    private void changeInstance(String message) {
+    private void changeInstance(StreamMessage message) {
 
     }
 

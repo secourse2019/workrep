@@ -25,15 +25,11 @@ public class TableCipherMethod implements ICipher {
         return value;
     }
 
-    public void setMessage(String a) {
+    void setMessage(String a) {
 
     }
 
-    public void setKey(String a) {
-
-    }
-
-    public void setKey(String a) {
+    void setKey(String a) {
 
     }
 
