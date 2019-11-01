@@ -6,6 +6,10 @@ public class SystemCaesar implements ICipher{
 
     SystemCaesar(String message, int value) {};
 
+    private void changeInstance(String message) {
+
+    }
+
     public StreamMessage  encryptor(String message) {
 
         return new StreamMessage(message);
@@ -14,10 +18,6 @@ public class SystemCaesar implements ICipher{
     public StreamMessage  decryptor(String message) {
 
         return new StreamMessage(message);
-    }
-
-    private void ChangeInstanse(int value) {
-
     }
 
     private int rolling(int value, int index) {

@@ -6,6 +6,4 @@ interface ICipher {
 
     StreamMessage encryptor(String message);
     StreamMessage  decryptor(String message);
-    void setMessage(String a);
-    void setKey(String a);
 }

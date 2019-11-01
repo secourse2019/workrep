@@ -28,6 +28,14 @@ public class MagicSquareCipher implements ICipher {
 
     }
 
+    void setMessage(String a) {
+
+    }
+
+    void setKey(String a) {
+
+    }
+
     public StreamMessage getMessage() {
         return null;
     }

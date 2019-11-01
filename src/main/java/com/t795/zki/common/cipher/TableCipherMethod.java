@@ -15,7 +15,7 @@ public class TableCipherMethod implements ICipher {
         return null;
     }
 
-    private void ChangeInstanse(int value) {
+    private void changeInstanse(String message) {
 
     }
 
@@ -25,6 +25,10 @@ public class TableCipherMethod implements ICipher {
     }
 
     public void setMessage(String a) {
+
+    }
+
+    public void setKey(String a) {
 
     }
 
