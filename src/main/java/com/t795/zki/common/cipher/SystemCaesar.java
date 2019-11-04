@@ -5,7 +5,7 @@ import com.t795.zki.common.bo.message.StreamMessage;
 
 public class SystemCaesar implements ICipher{
 
-    SystemCaesar(int value) {};
+    public SystemCaesar(String message, int value) {};
 
     private void changeInstance(StreamMessage message) {
 
@@ -23,5 +23,17 @@ public class SystemCaesar implements ICipher{
 
     private int rolling(int value, int index) {
         return value;
+    }
+
+    public AbstractMessage encrypt(AbstractMessage message) {
+        return null;
+    }
+
+    public AbstractMessage decrypt(AbstractMessage message) {
+        return null;
+    }
+
+    public StreamMessage getCipher() {
+        return null;
     }
 }
