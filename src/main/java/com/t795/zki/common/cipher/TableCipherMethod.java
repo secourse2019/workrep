@@ -40,4 +40,12 @@ public class TableCipherMethod implements ICipher {
     public BlockMessage getMessage() {
         return null;
     }
+
+    public AbstractMessage encrypt(AbstractMessage message) {
+        return null;
+    }
+
+    public AbstractMessage decrypt(AbstractMessage message) {
+        return null;
+    }
 }
