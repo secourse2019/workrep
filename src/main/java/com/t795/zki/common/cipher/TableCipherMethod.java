@@ -2,16 +2,16 @@ package com.t795.zki.common.cipher;
 
 import com.t795.zki.common.bo.message.StreamMessage;
 
-public class TableCipherMethod implements KeyCryptorMethod {
+public abstract class TableCipherMethod implements KeyCryptorMethod {
 
     TableCipherMethod(String message, int value){};
 
-    public StreamMessage  encryptor() {
-
+    public StreamMessage  encryptor(String message) {
+        return null;
     }
 
-    public StreamMessage  decryptor() {
-
+    public StreamMessage  decryptor(String message){
+        return null;
     }
 
     private void ChangeInstanse(int value) {
@@ -32,10 +32,10 @@ public class TableCipherMethod implements KeyCryptorMethod {
     }
 
     public StreamMessage getMessage() {
-        return  new StreamMessage();
+        return null;
     }
 
     public StreamMessage getKey() {
-        return new StreamMessage();
+        return null;
     }
 }

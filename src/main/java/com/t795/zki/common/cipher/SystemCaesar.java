@@ -4,7 +4,7 @@ import com.t795.zki.common.bo.message.StreamMessage;
 
 public class SystemCaesar {
 
-    SystemCaesar(String message, int value) {};
+    public SystemCaesar(String message, int value) {};
 
     private void ChangeInstanse(int value) {
 
@@ -15,10 +15,10 @@ public class SystemCaesar {
     }
 
     public StreamMessage getCipher() {
-        return new StreamMessage();
+        return null;
     }
 
-    public StreamMessage getDeCipher() {
-        return new StreamMessage();
+    public StreamMessage getDeCipher(String message) {
+        return new StreamMessage(message);
     }
 }

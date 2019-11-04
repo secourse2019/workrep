@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tests" parallel="tests" thread-count="2">
+
+    <test name="lab5">
+        <packages>
+            <package name="com.t795.trpo.Korobanko.lab5.*" />
+            <package name="com.t795.zki.common.Korobanko.lab6.*" />
+        </packages>
+    </test>
+
+</suite>
