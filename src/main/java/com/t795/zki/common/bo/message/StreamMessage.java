@@ -11,7 +11,6 @@ public class StreamMessage extends AbstractMessage {
         return message;
     }
 
-    public void setMessage(String msg) {
-        this.message = msg;
-    }
+    public void setMessageByString(String message) { this.message = message; }
+
 }

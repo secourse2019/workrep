@@ -5,47 +5,58 @@ import com.t795.zki.common.bo.message.StreamMessage;
 
 public class MagicSquareCipher implements ICipher {
 
-    MagicSquareCipher(){};
+    private String key;
+    private String message;
 
-    private int[] prepareMagicSquare(){
-        return new int[0];
+    public MagicSquareCipher(String key) {
+        this.key = key;
     }
 
-
-    public BlockMessage  encrypt(BlockMessage message) {
-
-    public StreamMessage encryptor(String message) {
-
-
-        return new BlockMessage(message);
+    private int[] prepareMagicSquare(String magicSquare) {
+        int[] result = new int[magicSquare.length()];
+        char[] temp = magicSquare.toCharArray();
+        for(int i = 0; i < temp.length; i++)
+        {
+            result[i] = temp[i];
+        }
+        return result;
     }
 
-    public BlockMessage  decrypt(BlockMessage message) {
-
-        return new BlockMessage(message);
+    public AbstractMessage encrypt() {
+        int[] keyMS = prepareMagicSquare(key);
+        char[] text = message.toCharArray();
+        String result = "";
+        for(int i = 0; i < keyMS.length; i++)
+        {
+            result += text[keyMS[i]];
+        }
+        return new StreamMessage(result);
     }
 
-    public void setMessage(String a) {
-
+    public AbstractMessage decrypt() {
+        int[] keyMS = prepareMagicSquare(key);
+        char[] text = encrypt().getMessage().toCharArray();
+        char[] result = new char[keyMS.length];
+        for(int i = 0; i < keyMS.length; i++)
+        {
+            result[keyMS[i]] = text[i];
+        }
+        return new StreamMessage(toStr(result));
     }
 
-    public void setKey(String a) {
-
+    private String toStr(char[] arr) {
+        String result = "";
+        for (int i = 0; i !=arr.length; ++i) {
+            result += arr[i];
+        }
+        return result;
     }
 
-    void setMessage(String a) {
-
-    }
-
-    void setKey(String a) {
-
-    }
-
-    public BlockMessage getMessage() {
-        return null;
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public StreamMessage getKey() {
-        return null;
+        return new StreamMessage(this.key);
     }
 }
