@@ -4,7 +4,6 @@ import com.t795.zki.common.bo.message.AbstractMessage;
 import com.t795.zki.common.bo.message.StreamMessage;
 
 interface ICipher {
-
-    AbstractMessage encrypt(AbstractMessage message);
-    AbstractMessage decrypt(AbstractMessage message);
+    AbstractMessage encrypt();
+    AbstractMessage decrypt();
 }

@@ -1,5 +1,8 @@
 package com.t795.zki.common.bo.message;
 
+
+import com.t795.zki.common.bo.message.util.Util;
+
 public class BlockMessage extends AbstractMessage {
     private char[][] content;
     private int rows;
@@ -10,18 +13,34 @@ public class BlockMessage extends AbstractMessage {
     }
 
     public BlockMessage(char[][] content) {
-        this.setContent(content);
+        this.setMessageByChar(content);
     }
+
+    public BlockMessage(String content) {
+        this.setMessage(content);
+    }
+
 
     public char[][] getContent() {
         return content;
     }
 
-    public void setContent(char[][] content) {
+    public void setMessageByChar(char[][] content) {
         this.content = content;
         this.rows = content.length;
         this.cols = content[0].length;
     }
+
+    public void setMessage(String content) {
+        this.rows = Util.makeLength(content.length());
+        this.cols = Util.makeLength(content.length());
+        this.content = new char[this.rows][this.cols];
+        for (int i = 0, point = 0; i != this.cols; ++i, point += this.cols) {
+            setRowByIndex(i, Util.makeRow(content, point, this.cols));
+        }
+    }
+
+
 
     public void setColumnByIndex(int index, char[] column) {
         for(int i = 0; i != this.rows; ++i) {
@@ -75,5 +94,13 @@ public class BlockMessage extends AbstractMessage {
 
     public char[] getRowByIndex(int rowIndex) {
         return this.content[rowIndex];
+    }
+
+    public String getMessage() {
+        String result = "";
+        for (int i = 0; i != this.rows; ++i) {
+            result += getRowByIndex(i).toString();
+        }
+        return result;
     }
 }
