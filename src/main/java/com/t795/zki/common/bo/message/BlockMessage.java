@@ -17,7 +17,7 @@ public class BlockMessage extends AbstractMessage {
     }
 
     public BlockMessage(String content) {
-        this.setMessageByString(content);
+        this.setMessage(content);
     }
 
 
@@ -31,7 +31,7 @@ public class BlockMessage extends AbstractMessage {
         this.cols = content[0].length;
     }
 
-    public void setMessageByString(String content) {
+    public void setMessage(String content) {
         this.rows = Util.makeLength(content.length());
         this.cols = Util.makeLength(content.length());
         this.content = new char[this.rows][this.cols];
@@ -95,16 +95,6 @@ public class BlockMessage extends AbstractMessage {
     public char[] getRowByIndex(int rowIndex) {
         return this.content[rowIndex];
     }
-
-    public static void main(String[] args) {
-        BlockMessage b = new BlockMessage("Hello Bitch!:3#");
-        for(int i = 0; i != b.cols; ++i) {
-            for(int j = 0; j != b.rows; ++j) {
-                System.out.println(b.content[i][j]);
-            }
-        }
-    }
-
 
     public String getMessage() {
         String result = "";

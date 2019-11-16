@@ -22,7 +22,7 @@ public class Util {
         return (int)Math.ceil(Math.sqrt((double)value));
     }
 
-    static  public char[] makeRow(String str, int point, int value) {
+    static public char[] makeRow(String str, int point, int value) {
         char[] result = new char[value];
         for(int i = 0; i != value; ++i, ++point) {
             result[i] = point < str.length() ? str.charAt(point) : ' ';

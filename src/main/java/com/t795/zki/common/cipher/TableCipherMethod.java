@@ -64,7 +64,7 @@ public class TableCipherMethod implements ICipher {
         sortBox();
     }
 
-    private String toStr(char[] arr) {
+    private String toString(char[] arr) {
         String result = "";
         for (int i = 0; i !=arr.length; ++i) {
             result += arr[i];
@@ -82,7 +82,7 @@ public class TableCipherMethod implements ICipher {
     }
 
     public AbstractMessage decrypt() {
-        TableCipherMethod decrypt = new TableCipherMethod(encrypt().getMessage(), toStr(this.key));
+        TableCipherMethod decrypt = new TableCipherMethod(encrypt().getMessage(), toString(this.key));
         return decrypt.encrypt();
     }
 }

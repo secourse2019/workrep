@@ -41,10 +41,10 @@ public class MagicSquareCipher implements ICipher {
         {
             result[keyMS[i]] = text[i];
         }
-        return new StreamMessage(toStr(result));
+        return new StreamMessage(toString(result));
     }
 
-    private String toStr(char[] arr) {
+    private String toString(char[] arr) {
         String result = "";
         for (int i = 0; i !=arr.length; ++i) {
             result += arr[i];
