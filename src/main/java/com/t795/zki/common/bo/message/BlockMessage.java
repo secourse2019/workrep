@@ -5,12 +5,16 @@ public class BlockMessage extends AbstractMessage {
     private int rows;
     private int cols;
 
-    public BlockMessage() {
+    public BlockMessage(BlockMessage message) {
         this(new char[0][0]);
     }
 
     public BlockMessage(char[][] content) {
         this.setContent(content);
+    }
+
+    public BlockMessage() {
+
     }
 
     public char[][] getContent() {

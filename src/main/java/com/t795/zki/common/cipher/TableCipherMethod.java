@@ -16,7 +16,7 @@ public class TableCipherMethod implements ICipher {
         return null;
     }
 
-    private void changeInstanse(String message) {
+    private void changeInstance(String message) {
 
     }
 
@@ -38,6 +38,14 @@ public class TableCipherMethod implements ICipher {
     }
 
     public BlockMessage getMessage() {
+        return null;
+    }
+
+    public AbstractMessage encrypt(AbstractMessage message) {
+        return null;
+    }
+
+    public AbstractMessage decrypt(AbstractMessage message) {
         return null;
     }
 }

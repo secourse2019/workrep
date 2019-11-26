@@ -1,26 +1,26 @@
 package com.t795.zki.common.cipher;
 
 import com.t795.zki.common.bo.message.AbstractMessage;
+import com.t795.zki.common.bo.message.BlockMessage;
 import com.t795.zki.common.bo.message.StreamMessage;
 
 public class MagicSquareCipher implements ICipher {
 
-    MagicSquareCipher(){};
+    MagicSquareCipher() {
+    }
 
-    private int[] prepareMagicSquare(){
+    private int[] prepareMagicSquare() {
         return new int[0];
     }
 
-
-    public BlockMessage  encrypt(BlockMessage message) {
-
-    public StreamMessage encryptor(String message) {
-
-
-        return new BlockMessage(message);
+    public void encrypt(BlockMessage message) {
     }
 
-    public BlockMessage  decrypt(BlockMessage message) {
+    public StreamMessage encryptor(String message) {
+        return new StreamMessage(message);
+    }
+
+    public BlockMessage decrypt(BlockMessage message) {
 
         return new BlockMessage(message);
     }
@@ -33,14 +33,6 @@ public class MagicSquareCipher implements ICipher {
 
     }
 
-    void setMessage(String a) {
-
-    }
-
-    void setKey(String a) {
-
-    }
-
     public BlockMessage getMessage() {
         return null;
     }
@@ -48,4 +40,13 @@ public class MagicSquareCipher implements ICipher {
     public StreamMessage getKey() {
         return null;
     }
+
+    public AbstractMessage encrypt(AbstractMessage message) {
+        return null;
+    }
+
+    public AbstractMessage decrypt(AbstractMessage message) {
+        return null;
+    }
 }
+

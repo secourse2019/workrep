@@ -1,17 +1,20 @@
 package com.t795.zki.common.bo.message;
 
 public class StreamMessage extends AbstractMessage {
-    private String message;
+    private StreamMessage message;
 
-    public  StreamMessage(String message) {
+    public  StreamMessage(StreamMessage message) {
         this.message = message;
     }
 
-    public String getMessage() {
+    public  StreamMessage() {
+    }
+
+    public StreamMessage getMessage() {
         return message;
     }
 
-    public void setMessage(String msg) {
+    public void setMessage(StreamMessage msg) {
         this.message = msg;
     }
 }

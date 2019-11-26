@@ -4,9 +4,7 @@ import com.t795.zki.common.bo.message.BlockMessage;
 
 public class Utils {
 
-    public BlockMessage transposeMatrix(BlockMessage message) {
-
-    }
+    public void transposeMatrix(BlockMessage message) { }
 
     public void SwapColumnsByIndex(BlockMessage message, int firstIndex, int secondIndex) {
 
